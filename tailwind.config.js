@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Comfortaa', ...defaultTheme.fontFamily.sans],
+
+        'comfortaa': ['Comfortaa', 'sans-serif'],
+        'hk-grotesk': ['HK Grotesk', 'sans-serif'],
+        'tt-milks': ['TT Milks Script', 'cursive'],
+      },
       colors: {
         'brand-primary': '#1a202c',  // Exemple pour la première couleur
         'brand-secondary': '#CA5A47', // Deuxième couleur

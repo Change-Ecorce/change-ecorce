@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Comfortaa, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -619,11 +619,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-brand-neutral {
-  --tw-text-opacity: 1;
-  color: rgb(220 234 232 / var(--tw-text-opacity));
-}
-
 .text-tarawera {
   --tw-text-opacity: 1;
   color: rgb(15 53 81 / var(--tw-text-opacity));
@@ -635,9 +630,60 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:text-brand-primary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(26 32 44 / var(--tw-text-opacity));
+/* Comfortaa */
+
+@font-face {
+  font-family: 'Comfortaa';
+
+  src: url('fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf') format('truetype');
+
+  font-weight: 100 700;
+
+  font-style: normal;
+}
+
+/* HK Grotesk (exemple pour le Regular et Bold) */
+
+@font-face {
+  font-family: 'HK Grotesk';
+
+  src: url('fonts/hk-grotesk/HKGrotesk-Regular.otf') format('opentype');
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HK Grotesk';
+
+  src: url('fonts/hk-grotesk/HKGrotesk-Bold.otf') format('opentype');
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+/* TT Milks Script (exemple pour le Regular et Bold) */
+
+@font-face {
+  font-family: 'TT Milks Script';
+
+  src: url('fonts/tt-milks-script/TT Milks Script Trial Regular.otf') format('opentype');
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Milks Script';
+
+  src: url('fonts/tt-milks-script/TT Milks Script Trial Bold.otf') format('opentype');
+
+  font-weight: 700;
+
+  font-style: normal;
 }
 
 .hover\:text-terra-cota:hover {
