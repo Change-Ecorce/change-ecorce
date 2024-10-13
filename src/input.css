@@ -37,3 +37,21 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@layer base {
+    html {
+        font-family: 'Comfortaa', system-ui, sans-serif;
+    }
+}
+
+#section-1-bg {
+    background-image: url("images/8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#section-1-content {
+    height: 80vh;
+}

@@ -26,16 +26,18 @@ module.exports = {
         'terra-cota': '#E8755E',
         'tranquil': '#DCEAE8',
         'bermuda': '#92CBC3',
+        'white': '#fff',
+        'transparent': 'transparent',
       },
     },
     colors: {
 
-      'tarawera': '#0F3551',
-      'provincial': '#F2E2D6',
-      'cedar': '#CA5A47',
-      'terra-cota': '#E8755E',
-      'tranquil': '#DCEAE8',
-      'bermuda': '#92CBC3',
+      // 'tarawera': '#0F3551',
+      // 'provincial': '#F2E2D6',
+      // 'cedar': '#CA5A47',
+      // 'terra-cota': '#E8755E',
+      // 'tranquil': '#DCEAE8',
+      // 'bermuda': '#92CBC3',
 
       // ...
     }
