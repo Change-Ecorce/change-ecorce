@@ -624,6 +624,20 @@ html {
   margin: 1rem;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -649,38 +663,20 @@ html {
   margin-bottom: 1rem;
 }
 
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -773,26 +769,22 @@ html {
   border-radius: 9999px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
 }
 
-.border-s {
-  border-inline-start-width: 1px;
-}
-
-.border-terra-cota {
-  --tw-border-opacity: 1;
-  border-color: rgb(232 117 94 / var(--tw-border-opacity));
+.border-2 {
+  border-width: 2px;
 }
 
 .border-cedar {
   --tw-border-opacity: 1;
   border-color: rgb(202 90 71 / var(--tw-border-opacity));
+}
+
+.border-tranquil {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 234 232 / var(--tw-border-opacity));
 }
 
 .bg-tranquil {
@@ -805,16 +797,20 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.bg-tranquil\/50 {
+  background-color: rgb(220 234 232 / 0.5);
 }
 
-.p-2 {
-  padding: 0.5rem;
+.bg-tranquil\/10 {
+  background-color: rgb(220 234 232 / 0.1);
 }
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -832,12 +828,33 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-justify {
   text-align: justify;
+}
+
+.font-comfortaa {
+  font-family: Comfortaa, sans-serif;
 }
 
 .font-hk-grotesk {
@@ -872,8 +889,16 @@ html {
   font-weight: 700;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-loose {
   line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .text-brand-accent {
@@ -881,14 +906,14 @@ html {
   color: rgb(15 53 81 / var(--tw-text-opacity));
 }
 
+.text-cedar {
+  --tw-text-opacity: 1;
+  color: rgb(202 90 71 / var(--tw-text-opacity));
+}
+
 .text-tarawera {
   --tw-text-opacity: 1;
   color: rgb(15 53 81 / var(--tw-text-opacity));
-}
-
-.text-terra-cota {
-  --tw-text-opacity: 1;
-  color: rgb(232 117 94 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -896,14 +921,15 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-cedar {
-  --tw-text-opacity: 1;
-  color: rgb(202 90 71 / var(--tw-text-opacity));
-}
-
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -983,9 +1009,14 @@ html {
   height: 80vh;
 }
 
-.hover\:bg-terra-cota:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(232 117 94 / var(--tw-bg-opacity));
+.hover\:border-bermuda:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(146 203 195 / var(--tw-border-opacity));
+}
+
+.hover\:border-terra-cota:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(232 117 94 / var(--tw-border-opacity));
 }
 
 .hover\:bg-cedar:hover {
@@ -993,19 +1024,14 @@ html {
   background-color: rgb(202 90 71 / var(--tw-bg-opacity));
 }
 
-.hover\:text-terra-cota:hover {
+.hover\:text-cedar:hover {
   --tw-text-opacity: 1;
-  color: rgb(232 117 94 / var(--tw-text-opacity));
+  color: rgb(202 90 71 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-cedar:hover {
-  --tw-text-opacity: 1;
-  color: rgb(202 90 71 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
