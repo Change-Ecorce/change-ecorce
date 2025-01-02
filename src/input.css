@@ -45,13 +45,13 @@
 }
 
 #section-1-bg {
-    background-image: url("images/8.png");
+    background-image: url("images/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
 }
-
 #section-1-content {
-    height: 80vh;
+    background: rgba(0, 0, 0, 0.3);
 }
+
